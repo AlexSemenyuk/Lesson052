@@ -1,0 +1,82 @@
+/* Common */
+:root {
+  /* text color */
+  --color-text-primary: rgb(0, 0, 0);
+  --color-text-red-code: rgb(137, 49, 70);
+  --color-text-tag: rgba(100, 131, 125, 1);
+
+  /* background */
+  --color-background-main: rgb(245, 245, 245);
+  --color-background-second: rgb(200, 200, 200);
+
+  /* text */
+  --text-primary: "Arial", sans-serif;
+}
+
+/* delete list-style */
+.list {
+  list-style: none;
+}
+
+/* body */
+body {
+  width: 900px;
+  background-color: var(--color-background-main);
+  font-size: 16px;
+  font-family: var(--text-primary);
+  color: var(--color-text-primary);
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* h1 */
+h1 {
+  border-bottom: 2px solid var(--color-background-second);
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  padding-left: 30px;
+}
+
+/* section */
+section {
+  border-bottom: 2px solid var(--color-background-second);
+  padding-left: 30px;
+}
+
+/* h2 */
+h2 {
+  letter-spacing: 0.03em;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 900;
+}
+
+/* red-mark */
+.red-mark {
+  background-color: var(--color-background-second);
+  color: var(--color-text-red-code);
+}
+
+/* pre */
+pre {
+  background-color: var(--color-background-second);
+  color: var(--color-text-red-code);
+  font-style: normal;
+}
+
+/* .code-text */
+.code-text {
+  color: var(--color-text-primary);
+}
+
+.footer {
+  padding-left: 30px;
+}
+
+/* green-mark */
+.green-mark {
+  background-color: var(--color-background-second);
+  color: var(--color-text-tag);
+}

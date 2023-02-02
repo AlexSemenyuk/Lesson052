@@ -1,0 +1,61 @@
+/* Common */
+:root {
+  /* text color */
+  --color-text-primary: rgba(38, 34, 49, 1);
+  --color-text-black-card: rgba(0, 0, 0, 1);
+  --color-text-red-card: rgba(144, 7, 15, 1);
+
+  /* background */
+  --color-background-main: rgb(245, 245, 245);
+  --color-background-cards: rgb(200, 200, 200);
+
+  /* text */
+  --text-primary: "Arial", sans-serif;
+}
+
+/* delete list-style */
+.list {
+  list-style: none;
+}
+
+/* body */
+body {
+  background-color: var(--color-background-main);
+  font-family: var(--text-primary);
+  color: var(--color-text-primary);
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* section */
+section {
+  padding-left: 40px;
+}
+/* section1 */
+.section-1 {
+  margin-bottom: 40px;
+}
+
+/* h2 */
+h2 {
+  letter-spacing: 0.03em;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* span */
+span {
+  background-color: var(--color-background-cards);
+  font-size: 40px;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* .red */
+.red {
+  color: var(--color-text-red-card);
+}

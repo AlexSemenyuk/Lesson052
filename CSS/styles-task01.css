@@ -1,0 +1,59 @@
+/* Common */
+:root {
+  /* text color */
+  --color-text-primary: rgba(38, 34, 49, 1);
+  --color-text-h1: rgba(76, 66, 119, 1);
+  --color-text-h2: rgba(122, 127, 133, 1);
+
+  /* background */
+  --color-background-main: rgb(245, 245, 245);
+
+  /* text */
+  --text-primary: "Arial", sans-serif;
+}
+
+/* delete list-style */
+.list {
+  list-style: none;
+}
+
+/* body */
+body {
+  background-color: var(--color-background-main);
+  font-family: var(--text-primary);
+  color: var(--color-text-primary);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* h1 */
+h1 {
+  color: var(--color-text-h1);
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  font-weight: 900;
+  text-align: center;
+}
+
+/* h2 */
+h2 {
+  color: var(--color-text-h2);
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  font-weight: 900;
+  text-align: start;
+}
+
+/* pre */
+pre {
+  letter-spacing: 0.03em;
+  font-family: var(--text-primary);
+}
+
+/* .scene */
+.scene {
+  /* font-style: italic;        Добавдено в тегом html */
+  font-size: 11px;
+}
